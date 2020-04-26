@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JavaScript Browser Support</title>
+	</head>
+	<body>
+		<h1>JavaScript Browser Support</h1>
+		<p>
+			In JavaScript certain syntax features or functionalities are not supported
+			by certain browsers. In particular modern features such as syntax features
+			and method from ES6 and beyond do not have full browser support in older
+			browsers such as IE. In order to combat this and allow users to have the
+			same experience or prevent erros on older browsers we have some options
+			such as feature detection, polyfills and transpilation.
+		</p>
+		<h3>Feature Detection</h3>
+		<p>
+			Feature detection allows us to check if a certain feature is available and
+			supported on a browser and provide a fallback if it is not. Typically
+			features that arent supported in a browser will return undefined so to
+			implement feature detection we can add an if statement to check for the
+			feature. If the feature it available then the if condition is met and we
+			can run the code we want to do inside however if the feature is not
+			supported and therefore returns undefined we can enter an else condition
+			where we can provide some fallback code.
+		</p>
+	</body>
+</html>
