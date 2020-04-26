@@ -1,0 +1,29 @@
+{
+	"name": "javascript-browser-support",
+	"version": "1.0.0",
+	"description": "browser support techniques javaacript",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build:dev": "webpack",
+		"build:prod": "webpack --config webpack.config.ptod.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Adam-Harte/JavaScript-browser-support.git"
+	},
+	"author": "Adam Harte",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Adam-Harte/JavaScript-browser-support/issues"
+	},
+	"homepage": "https://github.com/Adam-Harte/JavaScript-browser-support#readme",
+	"browserlist": "> 2%",
+	"devDependencies": {
+		"@babel/core": "^7.9.0",
+		"@babel/preset-env": "^7.9.5",
+		"babel-loader": "^8.1.0",
+		"webpack": "^4.43.0",
+		"webpack-dev-server": "^3.10.3"
+	}
+}
